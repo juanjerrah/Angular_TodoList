@@ -1,1 +1,137 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+ul {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+    box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+}
+
+button{
+    cursor: pointer;
+}
+
+li {
+    padding: 15px;
+    margin: 10px;
+    font-size: 1em;
+    font-style: italic;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+li>button {
+    border: none;
+    background-color: #fff;
+    font-size: 1em;
+    float: right;
+    opacity: 0.6;
+    transition: opacity 1s;
+}
+
+li>button:hover {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 5em;
+    text-shadow: 3px 5px #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button{
+    background-color: #1ba325;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 100;
+    padding: 20px 50px;
+}
+
+.button:hover{
+    background-color: #15851c;
+}
+
+#modal{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+}
+
+.text-center {
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    line-height: 50px;
+    text-indent: 10px;
+    font-size: 1.2em;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    outline: none;
+}
+
+.danger {
+    color: #ff0000;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.cancel-button{
+    background-color: #a3481b;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 100;
+    padding: 20px 50px;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0,212,255,1);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(2,0,36);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(6, 1, 92);
+  }
