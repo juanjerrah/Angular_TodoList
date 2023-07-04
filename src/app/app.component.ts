@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
     })
   }
 
-  add(){
+  add() {
     const title = this.form.controls['title'].value
 
     const id = this.todos.length + 1
@@ -50,7 +50,6 @@ export class AppComponent implements OnInit {
   markAsDone(todo: Todo){
     todo.done = true
     this.save()
-
   }
 
   markAsUndone(todo: Todo){
